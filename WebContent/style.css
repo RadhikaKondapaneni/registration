@@ -1,0 +1,158 @@
+#submit{
+  margin-top: 10px;
+}
+.foot{
+  background: #474745;
+  margin-top: 30px;
+  color: white;
+}
+#contact{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+}
+.navbar-light{
+  background-color: #474745;
+}
+.navbar-nav li a{
+  color: white;
+}
+.navbar-nav li a:hover{
+  background-color:#07ACE5;
+}
+.nav-link{
+  color: white!important;
+}
+
+.cent{
+  text-align:center;
+}
+.marg{
+  margin-top: 100px;
+}
+#car{
+  margin-top: 150px;
+}
+.head{
+  font-size: 25px;
+}
+.bullet{
+  list-style-type: none;
+}
+.round li a{
+  display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #07ACE5;
+    text-align: center;
+    line-height: 40px;
+    color: #224755;
+    font-size: 17px;
+    margin-right: 5px;
+    transform: rotate(0deg);
+    transition: all .3s ease;
+}
+.round{
+  list-style-type: none;
+}
+.round li a:hover{
+  background-color: white;
+}
+.round li a{
+  text-decoration: none;
+}
+.social{
+  position: relative;
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+  outline: none;
+}
+input:hover{
+  border-color: black;
+}
+.jumbotron{
+  margin-top: 20px;
+}
+
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 60%;
+}
+#demo{
+	margin-top:1px;
+}
+.register{
+	margin-top:160px;
+}
+.button-test{
+	display:block;
+	width:110px;
+	height:60px;
+	padding-left:15px;
+	/*background-color:grey;*/
+	font-size:20px;
+	font-family:arial;
+	font-weight:600;
+	color:light blue;
+	line-height:60px;
+	white-space:nowrap;
+	overflow:hidden;
+	transition:all 0.1s ease-in-out;
+	-webkit-transition:all 0.1s ease-in-out;
+	-moz-transition:all 0.1s ease-in-out;
+	-o-transition:all 0.1s ease-in-out;
+}
+.button-test:hover{
+	width:170px;
+}
+.button-test span{
+	padding-left:10px;
+	color:white;
+	font-weight:900;
+}
